@@ -59,7 +59,7 @@ def eucaldainDistance(x,y):
     return distance  
     
 def main():
-    distanceList=DataInDataFrame("Spartan (2004)")
+    distanceList=DataInDataFrame("Spartan (2004)")      # pass movie name from here
     # sort in ascending order and pick most 10 related movies
     distanceList = sorted(distanceList)[:10]   
     return distanceList
